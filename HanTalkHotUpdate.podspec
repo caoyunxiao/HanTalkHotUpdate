@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HanTalkHotUpdate'
-  s.version          = '0.1.0'
+  s.version          = '0.3.0'
   s.summary          = 'A short description of HanTalkHotUpdate.'
 
 # This description is used to generate tags and improve search results.
@@ -34,4 +34,5 @@ Pod::Spec.new do |s|
 
    s.public_header_files = 'HanTalkHotUpdate/Classes/**/*.h'
    s.dependency 'AFNetworking', '~> 2.3'
+   s.frameworks = 'UIKit','SystemConfiguration','Security','MobileCoreServices'
 end

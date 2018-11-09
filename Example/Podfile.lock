@@ -20,7 +20,7 @@ PODS:
   - AFNetworking/UIKit (2.6.3):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - HanTalkHotUpdate (0.1.0):
+  - HanTalkHotUpdate (0.3.0):
     - AFNetworking (~> 2.3)
 
 DEPENDENCIES:
@@ -36,7 +36,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
-  HanTalkHotUpdate: 1c78ccb6d8f0cc5f90f2db2b77fff651ad12eadf
+  HanTalkHotUpdate: 0aa6504df78ad91e94975b41c391b9ed06698d4c
 
 PODFILE CHECKSUM: f9d710608edf46ca1d37c82be551260c0d3975a0
 
