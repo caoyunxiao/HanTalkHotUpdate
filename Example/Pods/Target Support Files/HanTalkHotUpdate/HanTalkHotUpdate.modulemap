@@ -1,0 +1,6 @@
+framework module HanTalkHotUpdate {
+  umbrella header "HanTalkHotUpdate-umbrella.h"
+
+  export *
+  module * { export * }
+}

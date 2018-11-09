@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		266EC7BC656EFEC775BA4E61 /* HanTalkHotUpdate.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HanTalkHotUpdate.podspec; path = ../HanTalkHotUpdate.podspec; sourceTree = "<group>"; };
+		266EC7BC656EFEC775BA4E61 /* HanTalkHotUpdate.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HanTalkHotUpdate.podspec; path = ../HanTalkHotUpdate.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* HanTalkHotUpdate_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HanTalkHotUpdate_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,8 +62,8 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		979776F66C3B12A73024E20C /* Pods-HanTalkHotUpdate_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HanTalkHotUpdate_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HanTalkHotUpdate_Example/Pods-HanTalkHotUpdate_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9F8C6EE4082F5466E8B0132A /* Pods-HanTalkHotUpdate_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HanTalkHotUpdate_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HanTalkHotUpdate_Tests/Pods-HanTalkHotUpdate_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A5A73DE8C5413FC8C01D6514 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		ABE01DD830B5E9D8CECE2300 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A5A73DE8C5413FC8C01D6514 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		ABE01DD830B5E9D8CECE2300 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E70E62D0F308767C9064D519 /* Pods_HanTalkHotUpdate_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HanTalkHotUpdate_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF79A4A2AA60CD0B28883659 /* Pods-HanTalkHotUpdate_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HanTalkHotUpdate_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HanTalkHotUpdate_Example/Pods-HanTalkHotUpdate_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FFB72BDFD35FB3CD05CCF065 /* Pods-HanTalkHotUpdate_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HanTalkHotUpdate_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HanTalkHotUpdate_Tests/Pods-HanTalkHotUpdate_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = caoyunxiao;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = WT6YX73Z3N;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -299,15 +302,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-HanTalkHotUpdate_Tests-checkManifestLockResult.txt",
 			);
@@ -321,16 +320,14 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-HanTalkHotUpdate_Example/Pods-HanTalkHotUpdate_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/HanTalkHotUpdate/HanTalkHotUpdate.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HanTalkHotUpdate.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,15 +340,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-HanTalkHotUpdate_Example-checkManifestLockResult.txt",
 			);
@@ -497,6 +490,7 @@
 			baseConfigurationReference = FF79A4A2AA60CD0B28883659 /* Pods-HanTalkHotUpdate_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WT6YX73Z3N;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HanTalkHotUpdate/HanTalkHotUpdate-Prefix.pch";
 				INFOPLIST_FILE = "HanTalkHotUpdate/HanTalkHotUpdate-Info.plist";
@@ -512,6 +506,7 @@
 			baseConfigurationReference = 979776F66C3B12A73024E20C /* Pods-HanTalkHotUpdate_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WT6YX73Z3N;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HanTalkHotUpdate/HanTalkHotUpdate-Prefix.pch";
 				INFOPLIST_FILE = "HanTalkHotUpdate/HanTalkHotUpdate-Info.plist";
