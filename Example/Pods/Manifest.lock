@@ -20,7 +20,7 @@ PODS:
   - AFNetworking/UIKit (2.6.3):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - HanTalkHotUpdate (0.8.0):
+  - HanTalkHotUpdate (0.9.0):
     - AFNetworking (~> 2.3)
     - Masonry
   - Masonry (1.1.0)
@@ -39,7 +39,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
-  HanTalkHotUpdate: 1765f33f9d3b3a0ad8eb6755a99881db995733ec
+  HanTalkHotUpdate: a48a2f1137877ba0c1ac09dc2d1f1ca2fd97471a
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: f9d710608edf46ca1d37c82be551260c0d3975a0
