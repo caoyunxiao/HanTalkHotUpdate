@@ -7,7 +7,7 @@
 
 #import "TestViewController.h"
 #import <AFNetworking/AFNetworking.h>
-#import "Masonry.h"
+#import <ReactiveObjC/ReactiveObjC.h>
 
 @interface TestViewController ()
 
@@ -21,21 +21,16 @@
     
     [self getWithUrl:@"https://www.baidu.com"];
     
-    UILabel *label = [[UILabel alloc] init];
-    label.text = @"测试";
-    [self.view addSubview:label];
-    [label mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.edges.equalTo(self.view);
-    }];
-    
 }
 
 - (void)getWithUrl:(NSString *)url {
     AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc] init];
     [manager GET:url parameters:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nonnull responseObject) {
         NSLog(@"%@",responseObject);
+        [self.subject sendNext:responseObject];
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         NSLog(@"%@",error);
+        [self.subject sendError:error];
     }];
 }
 

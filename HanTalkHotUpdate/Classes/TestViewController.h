@@ -7,6 +7,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class RACSubject;
+
 @interface TestViewController : UIViewController
+
+
+@property (nonatomic, strong) RACSubject *subject;
 
 @end

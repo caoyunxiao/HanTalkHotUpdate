@@ -20,10 +20,10 @@ PODS:
   - AFNetworking/UIKit (2.6.3):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - HanTalkHotUpdate (0.9.0):
+  - HanTalkHotUpdate (1.0.0):
     - AFNetworking (~> 2.3)
-    - Masonry
-  - Masonry (1.1.0)
+    - ReactiveObjC
+  - ReactiveObjC (3.1.0)
 
 DEPENDENCIES:
   - HanTalkHotUpdate (from `../`)
@@ -31,7 +31,7 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
-    - Masonry
+    - ReactiveObjC
 
 EXTERNAL SOURCES:
   HanTalkHotUpdate:
@@ -39,8 +39,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
-  HanTalkHotUpdate: a48a2f1137877ba0c1ac09dc2d1f1ca2fd97471a
-  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  HanTalkHotUpdate: ed1f24b1090c98a9d5fcceecf6690544841ab990
+  ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
 
 PODFILE CHECKSUM: f9d710608edf46ca1d37c82be551260c0d3975a0
 
