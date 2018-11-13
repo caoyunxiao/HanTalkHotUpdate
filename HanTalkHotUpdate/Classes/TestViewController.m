@@ -7,6 +7,7 @@
 
 #import "TestViewController.h"
 #import <AFNetworking/AFNetworking.h>
+#import <Masonry/Masonry.h>
 
 @interface TestViewController ()
 
@@ -19,6 +20,14 @@
     // Do any additional setup after loading the view.
     
     [self getWithUrl:@"https://www.baidu.com"];
+    
+    UILabel *label = [[UILabel alloc] init];
+    label.text = @"测试";
+    [self.view addSubview:label];
+    [label mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(self.view);
+    }];
+    
 }
 
 - (void)getWithUrl:(NSString *)url {
