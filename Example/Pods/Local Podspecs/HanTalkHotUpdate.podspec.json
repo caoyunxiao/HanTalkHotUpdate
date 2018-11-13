@@ -1,6 +1,6 @@
 {
   "name": "HanTalkHotUpdate",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "summary": "A short description of HanTalkHotUpdate.",
   "homepage": "https://github.com/caoyunxiao/HanTalkHotUpdate",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/caoyunxiao/HanTalkHotUpdate.git",
-    "tag": "0.6.0"
+    "tag": "0.7.0"
   },
   "platforms": {
     "ios": "8.0"

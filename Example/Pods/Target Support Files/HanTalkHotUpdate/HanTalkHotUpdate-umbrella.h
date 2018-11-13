@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "TestViewController.h"
 #import "UpdateManager.h"
 
 FOUNDATION_EXPORT double HanTalkHotUpdateVersionNumber;
