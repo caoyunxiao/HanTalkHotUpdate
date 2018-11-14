@@ -8,6 +8,7 @@
 
 #import "YXViewController.h"
 #import <HanTalkHotUpdate/UpdateManager.h>
+#import <HanTalkHotUpdate/TestViewController.h>
 
 
 @interface YXViewController ()
@@ -19,9 +20,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
     UpdateManager *manager = [[UpdateManager alloc] init];
     [manager getWithUrl:@"https://www.baidu.com"];
+    
+    
+    TestViewController *testVc = [[TestViewController alloc] init];
+    testVc.view.frame = CGRectMake(100, 200, 200, 200);
+    [self addChildViewController:testVc];
+    [self.view addSubview:testVc.view];
     
 }
 

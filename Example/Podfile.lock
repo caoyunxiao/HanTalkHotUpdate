@@ -1,46 +1,15 @@
 PODS:
-  - AFNetworking (2.6.3):
-    - AFNetworking/NSURLConnection (= 2.6.3)
-    - AFNetworking/NSURLSession (= 2.6.3)
-    - AFNetworking/Reachability (= 2.6.3)
-    - AFNetworking/Security (= 2.6.3)
-    - AFNetworking/Serialization (= 2.6.3)
-    - AFNetworking/UIKit (= 2.6.3)
-  - AFNetworking/NSURLConnection (2.6.3):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/NSURLSession (2.6.3):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/Reachability (2.6.3)
-  - AFNetworking/Security (2.6.3)
-  - AFNetworking/Serialization (2.6.3)
-  - AFNetworking/UIKit (2.6.3):
-    - AFNetworking/NSURLConnection
-    - AFNetworking/NSURLSession
-  - HanTalkHotUpdate (1.0.0):
-    - AFNetworking (~> 2.3)
-    - ReactiveObjC
-  - ReactiveObjC (3.1.0)
+  - HanTalkHotUpdate (1.1.0)
 
 DEPENDENCIES:
   - HanTalkHotUpdate (from `../`)
-
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - AFNetworking
-    - ReactiveObjC
 
 EXTERNAL SOURCES:
   HanTalkHotUpdate:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
-  HanTalkHotUpdate: ed1f24b1090c98a9d5fcceecf6690544841ab990
-  ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
+  HanTalkHotUpdate: 9e75e7d93e5388a22c859838942690572d14e9be
 
 PODFILE CHECKSUM: f9d710608edf46ca1d37c82be551260c0d3975a0
 

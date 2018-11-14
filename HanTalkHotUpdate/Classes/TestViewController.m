@@ -6,8 +6,8 @@
 //
 
 #import "TestViewController.h"
-#import <AFNetworking/AFNetworking.h>
-#import <ReactiveObjC/ReactiveObjC.h>
+#import "Masonry.h"
+
 
 @interface TestViewController ()
 
@@ -19,34 +19,15 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    [self getWithUrl:@"https://www.baidu.com"];
-    
-}
-
-- (void)getWithUrl:(NSString *)url {
-    AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc] init];
-    [manager GET:url parameters:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nonnull responseObject) {
-        NSLog(@"%@",responseObject);
-        [self.subject sendNext:responseObject];
-    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-        NSLog(@"%@",error);
-        [self.subject sendError:error];
+    UILabel *tempLabel = [[UILabel alloc] init];
+    tempLabel.text = @"测试";
+    tempLabel.textColor = [UIColor redColor];
+    tempLabel.textAlignment = NSTextAlignmentCenter;
+    [self.view addSubview:tempLabel];
+    [tempLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(self.view);
     }];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
