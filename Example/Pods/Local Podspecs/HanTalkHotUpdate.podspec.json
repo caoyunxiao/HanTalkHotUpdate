@@ -1,6 +1,6 @@
 {
   "name": "HanTalkHotUpdate",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "summary": "A short description of HanTalkHotUpdate.",
   "homepage": "https://github.com/caoyunxiao/HanTalkHotUpdate",
   "license": {
@@ -11,13 +11,17 @@
     "caoyunxiao": "1105938518@qq.com"
   },
   "source": {
-    "git": "https://github.com/caoyunxiao/HanTalkHotUpdate.git",
-    "tag": "1.1.0"
+    "git": "/Users/caoyunxiao/Desktop/HanTalkHotUpdate"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "HanTalkHotUpdate/Classes/**/*",
+  "source_files": "HanTalkHotUpdate/Classes/**/*.{h,m}",
+  "dependencies": {
+    "AFNetworking": [
+
+    ]
+  },
   "public_header_files": "HanTalkHotUpdate/Classes/**/*.h",
   "frameworks": [
     "UIKit",
