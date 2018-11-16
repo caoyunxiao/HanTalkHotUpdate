@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HanTalkHotUpdate'
-  s.version          = '1.1.0'
+  s.version          = '1.1.5'
   s.summary          = 'A short description of HanTalkHotUpdate.'
 
 # This description is used to generate tags and improve search results.
@@ -22,16 +22,24 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'caoyunxiao' => '1105938518@qq.com' }
   s.source           = { :git => 'https://github.com/caoyunxiao/HanTalkHotUpdate.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+#  s.source = { :git => '/Users/caoyunxiao/Desktop/HanTalkHotUpdate' }
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'HanTalkHotUpdate/Classes/**/*'
+  s.source_files = 'HanTalkHotUpdate/Classes/**/*.{h,m}'
   
   # s.resource_bundles = {
   #   'HanTalkHotUpdate' => ['HanTalkHotUpdate/Assets/*.png']
   # }
 
+   s.dependency 'AFNetworking'
    s.public_header_files = 'HanTalkHotUpdate/Classes/**/*.h'
    s.frameworks = 'UIKit','SystemConfiguration','Security','MobileCoreServices'
+   
+   
+   
+   
+   
+   
+   
 end

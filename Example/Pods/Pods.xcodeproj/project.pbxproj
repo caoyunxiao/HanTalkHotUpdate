@@ -9,34 +9,24 @@
 /* Begin PBXBuildFile section */
 		00E2C1092D2255BB25E45DF004D3E7E5 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E79F20FA67EF326AC8DE380E6118EBF4 /* UIWebView+AFNetworking.m */; };
 		00ED59EE2784CE922358E57E241A6C75 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 940F9DBBD5FB7E51683C5858A06D1B91 /* UIRefreshControl+AFNetworking.m */; };
-		0792566A4580019586DCB533AD0888E0 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 31ED284709D993E4EB8F8945CE1B26D7 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0D58399A6DC61099900309A4449F7891 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C208217BB6EAB64559C0AC437E799C /* AFURLSessionManager.m */; };
+		0F2BDC9072FDB39DEE6ED1A77AFAF244 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 880194B8F64D0EEA4EF4D17F41867147 /* Foundation.framework */; };
+		11C973084FC002D8A707C54792E34CC0 /* UpdateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D66143D2F6CB0621559ADF5E0B0D795 /* UpdateManager.m */; };
 		11EAB2A17E2712DB04831AD0FFD6A5DB /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A821F310F9CBCED06C1D6DEC3103B24 /* AFURLResponseSerialization.m */; };
 		137A6E8841A2429C00CBFA701695197E /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB3C1AE13FE37CFF6F471AF2B1E701D /* AFNetworkReachabilityManager.m */; };
 		15304B6383EF69EC4E3DE45F8613BE2E /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C90CE9B626C1720C9ADB8FF999E47D68 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15F1AB626337FECD0B9CFAAD90FAC342 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 443C446A800F6280C03E64AF14170EC0 /* AFNetworkActivityIndicatorManager.m */; };
 		1A5BF339E54D0DA8C103564F6179453A /* Pods-HanTalkHotUpdate_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37571CE6D9A598EC8A406B971F7E8496 /* Pods-HanTalkHotUpdate_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1CBE46A9A66F15CD583FCA3F468787F4 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F42DF76DC28110A83649C86971CCBD /* ReplaceMe.m */; };
-		1D6E3B1CC0F8825C244CD699E4A96D76 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 861E5A9F91EB9AEDA75E5F1603AE8546 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		208D17D7B21A3BCB77EF6916C5A34E58 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 0021F429174EA50A4F2ADCAF36EEB504 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		26C25A95B0B961F1738B60B8ED411825 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D98E9F94674B951D5AD580B6FF25D78C /* NSArray+MASAdditions.m */; };
 		2E68973739E2AE713059A22F94238C60 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB2918FE96D6AE88B6CA1AB13D6E730 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2FC5FB3ED2AA45F4C3C2AAEDAF878221 /* HanTalkHotUpdate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4C03C587888638D204431585A11C152 /* HanTalkHotUpdate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3004BBC7B78F859B0DA6A859D54A3CD9 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 789723E2251183402C5399F67E6C6185 /* MASCompositeConstraint.m */; };
-		30CC4867C44E2C73ECBD3143C9B7A3E3 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = D5DB48199A83A8A6EFD633CBCED7596C /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		375DC8EA884307B5D825AE57C137614A /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B943D0C95FC8B04938646639CCFD295 /* ViewController+MASAdditions.m */; };
-		3C48E390A187659A3A1BADC85D6C9B41 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1DEE789A260EC86C9D368D32923242 /* MASConstraint.m */; };
+		3970FF419B2EC15DEB6B83E5D8797270 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 549227B366C55E250893C8E2EB35657E /* Security.framework */; };
 		3CC1558D8899A2E13A968D4C403CD793 /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = E1C8AE42D5A69E862E48EC78FF350078 /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3FF7F0A578B549BBB108066CCEB19626 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 75364EBDDAA9D30BD74B2DE562BCD1F2 /* MASViewConstraint.m */; };
+		40168C84C77B01D2D5ECA864A42B62E1 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A39126969A1FBAEF5C77690E4D82AF /* MobileCoreServices.framework */; };
 		402EB64C59857FE252DC98844643C420 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E5CE85E1EB18AE94164507FF5D433CE6 /* UIButton+AFNetworking.m */; };
 		41FD4D0D6101210E26DDDCDD17FBB7C3 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A23D5B238032195CA6F925D556B9F96 /* UIImageView+AFNetworking.m */; };
 		491D5B62F1B91673F49A9D806DC6289F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 880194B8F64D0EEA4EF4D17F41867147 /* Foundation.framework */; };
-		4A1A74BD723EBF76F0778BC8014AB2EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F01A2FF3063C4AE9B825FFA43C8E20B8 /* UIKit.framework */; };
-		503B7E5C2DEEE1BA0C96C3D6EEADEACB /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F059F94B54F737A25A7ECD2A1072A3E1 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		524EC5DC2365B1D406202187ABFD35EC /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BCEFD1083FA72F5E123E07D565CA970 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		519F0D1C80217E88E7B5A5E3A0AA9600 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEFADBFEEBD5F6BFEA5483C615F65EB5 /* SystemConfiguration.framework */; };
 		5A4C39ACCE4CE7B6C69C736F48087759 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC88013A13A80BA08140FC1D0FC17CAD /* AFHTTPSessionManager.m */; };
 		616166BD57B8707EC940068BF5E1AA0A /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = CC18ED6BD8558D5E0970879CD6A9291E /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		629AF94434FB4B51CD97E13752E0EFCC /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D8402FA7AC4126A09D97FB4ADABABC8 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		63A7B518E880C7AACABCD20AFA247C8C /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 559947ACFC2291BE83F8DEC005B7101D /* AFSecurityPolicy.m */; };
 		63B05DD8200C971ABDD35B000918A587 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D5B595A8C2548A98051D11D33AC2723 /* CoreGraphics.framework */; };
 		66340E06FB146280E83112B966E563C3 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 353BE42A5F94DADECC35B1DBDA6A1231 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -44,51 +34,34 @@
 		6A5E05D187005E863177B45D58905C71 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2658E99DDD8EA7B96318F002C7B157B0 /* AFImageDownloader.m */; };
 		6C7C6C542448137FC3B6CEA04386780C /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 09BDA8426E671B3F1385057205E67201 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6CC995DE37437CA7EBE585D903B6E287 /* Pods-HanTalkHotUpdate_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C304AFB196CB1F939C733CAB82EE5C3 /* Pods-HanTalkHotUpdate_Example-dummy.m */; };
-		7263C26F9B8133E8762C024D09ED652D /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C3F3D6D27DF6F34778198ED1FD58DE6 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		74A0E356623165E5838672EFA1F06B0D /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1933EA3574E97B223B43E8B3E7BB223F /* MASLayoutConstraint.m */; };
 		76BA5CCA7F0BD9E4B4B9C2C466C7DC58 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 549227B366C55E250893C8E2EB35657E /* Security.framework */; };
 		78F5D40D5B8E9FC40FB257953EA945BA /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = AB81F5B5A19D6F63D51E00BB9E746058 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79910780F5FB0C5A41A6F5F6A0AB2782 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEFADBFEEBD5F6BFEA5483C615F65EB5 /* SystemConfiguration.framework */; };
-		79ED3689635FF1B5F0028EB7F9A6CF3A /* UpdateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E463D2AD486B5B2100DA04F357825892 /* UpdateManager.m */; };
-		85CBDEB3EEA93E8ACC2E99701B922768 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 9659FD22FAD9EBC5FED490586629C518 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		872C48A782BE42E1C266EB754F9E5A6A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A8E4812F0AC4E548F68B9C03FEE62A /* ReplaceMe.m */; };
 		8826A0887EEE1A618FA3BA34989E05B5 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B111A72E572F236A399CC7F2E7D3E85 /* AFNetworking-dummy.m */; };
 		88A52F2DE87FAAEF79B420CC9B6BDE80 /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF1D89BEED3766388A77B2FCB9912393 /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		88EE4E7326961E113AD78FE236EF17F2 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 71E954235DC94E34182898B3407F726B /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8AD9F8FE36978CB4348E402207950883 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 6361979267EDE0860632095FC6EA4D87 /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8AF33C132EABA33F5C719B1832ECDED6 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F51E646305B6BC861AB10F74D0B8A3E0 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		901790CB7729E8871AE5DE99E486792B /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = BB00ADDE9C30E36EB99FA89E831E4590 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9486D80CC092F8ACB2355D5C94A155E3 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1174ABA877619CC640989D6AC9A07DF1 /* AFAutoPurgingImageCache.m */; };
-		9CF1453B8A5930F77B5FEF3230A50846 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCAAFCF9D54C55F5CAC637C2AA39122 /* MASConstraintMaker.m */; };
+		98BFC4C6210666D8B1FBF81F8AC08EDE /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040C09B94F19533FBD391278CB20185D /* AFNetworking.framework */; };
 		9D380619079479C622272E2C77FCD289 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 0929494D86649284B6A56EAB3F91B303 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9E885B306CAAE012A82533EB3A2593B7 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E2B9D58F1E53644F231B97A1582F64 /* View+MASAdditions.m */; };
-		A2F307DBCBCD2F43756CF196AB04700D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 880194B8F64D0EEA4EF4D17F41867147 /* Foundation.framework */; };
 		A39E1924915C53C49E7220F72AD96BBB /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = F1423F692F2541CFE55253BC467F0025 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A707F33AF9BDB27BD95432DFB1E2E97A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A39126969A1FBAEF5C77690E4D82AF /* MobileCoreServices.framework */; };
-		A7F19CBFD8ABB33FDC81E0A9FA6FB399 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040C09B94F19533FBD391278CB20185D /* AFNetworking.framework */; };
 		B2A8DF4B3645FA89D61B8B1BDC49CE05 /* Pods-HanTalkHotUpdate_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A32BFAF9CC6751164BA81D435F5B03F /* Pods-HanTalkHotUpdate_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B772355201E1F42A4338F747B7006DE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 880194B8F64D0EEA4EF4D17F41867147 /* Foundation.framework */; };
-		B7F09130537921717A885689710318E3 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 321E905D68D3A893ADED5371E975D02E /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BEE7FD5C1C06AF3670E0FB75F996DDF7 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D1C251DFB2D3B0E60259BE56A85C5BA /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C3B90113C52502A1221FB8C0FACEAFDC /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 66B9F0417BB2ACA2F22BFEFB4D798542 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C92A0D27F27AEB2292DD9CF2EF525511 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A85CFF7340F6F217610D5011268BE29 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C9E424257FD81AD3E82A86169C20E1DF /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CF4A146440C69C82DC54E1D6C95F5B /* TestViewController.m */; };
-		CA31F8DDCF56CE63F8767B3305A08535 /* TestViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F6C90B8C59D573AD08FC82FEC702055F /* TestViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF557E74A66C40C874DBBD9F87683EEE /* HanTalkHotUpdate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4576E984C50C6C58CDAD1ADE70FDB00A /* HanTalkHotUpdate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CB3028664CA23A1480C18C7A86CFDAF4 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = BE62D258251F0E3CC57836C93584D335 /* UIActivityIndicatorView+AFNetworking.m */; };
 		CB3CA20E3732A095F5515E0621D8719C /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF9AB0D2DE5398A86009837A2760BAD /* AFURLRequestSerialization.m */; };
 		CB633AF10D27AD0971F3E34470B0BB01 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FB33A30129B406EB1BD224B6B630B80 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CCA23525E0196798F93EAFF2CC6558FA /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = E5A0AD75803374F2928A5990F8B9FFA0 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D014A5430789C5F0FFCF490D53B22897 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AF376080E12057AC937F6E1F0D7CB5D /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D25BC07BEFC34700C6BB8A2C5BAFA0BC /* Pods-HanTalkHotUpdate_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF583C8B9D819B2DDADBD3E2E7016A51 /* Pods-HanTalkHotUpdate_Tests-dummy.m */; };
-		D3D0E6A1DB22D531B82F560B049C2C47 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A39126969A1FBAEF5C77690E4D82AF /* MobileCoreServices.framework */; };
 		D3EE531B8DA2AEFB2844226608CDF49C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 880194B8F64D0EEA4EF4D17F41867147 /* Foundation.framework */; };
 		D491FD44351A11016A957CA81ABE0EC5 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 05BFBAF94DDF04E8BDBF6323835FB9BC /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DCA738F9D25B4D8C26306564A35E4826 /* UpdateManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 848A2A959DD4716F0D567339263D120F /* UpdateManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D998D21079C195C118C56F9F55ECE402 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F01A2FF3063C4AE9B825FFA43C8E20B8 /* UIKit.framework */; };
 		DF74915F8F367134FA4277BE9A2F52DB /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF0F7569C1C4BFC3EF2C9DA3D50CC0B /* UIProgressView+AFNetworking.m */; };
-		EC7288EC96D5D554B6C2909A0A46BF71 /* HanTalkHotUpdate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D4B9A336683C724DF7D608C8F2738B /* HanTalkHotUpdate-dummy.m */; };
-		F1709B48475F5D595E6FC6F035121AFC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 549227B366C55E250893C8E2EB35657E /* Security.framework */; };
+		E490BB110A79835863C8BE6C69F64C40 /* HanTalkHotUpdate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E459A074626BD769DC142F1FB7A8F8EF /* HanTalkHotUpdate-dummy.m */; };
 		F2D2FE3B9DB1610D8EFAB393A3412DB7 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 17FCADC02A41266A8F7ECA471386ABB3 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F44519077C753D95802163A139AC78C4 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 5107B9B6CE83E636B71E3CDA2AE3E563 /* MASViewAttribute.m */; };
-		FA5732405531D353E8F8DE5CD4FD52D0 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7374CB51F88A9B491B8B985E3D722517 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F453A46FA3B69047E7EA7402B7C039EC /* UpdateManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7246235E51EAFF1369D0326795FC6246 /* UpdateManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCB209DFAFF4721A4AA51197AB2D7016 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AD7A9F5902061F94EEC77455DF6D75F /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE66EF8D47514D23E7551E2C95C765D8 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D2F00E33B5224A2ABFD1744688638A40 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF12B4BE37652AC565ED618C106CFE10 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D82029FB8774862A89BC6CD31A855F2 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -109,7 +82,7 @@
 			remoteGlobalIDString = BF183D826CC60A1FA1B88220E5F819E2;
 			remoteInfo = "Pods-HanTalkHotUpdate_Example";
 		};
-		81DF98535881ECA324E061D3DB60617C /* PBXContainerItemProxy */ = {
+		C74AE7EA63CB68A9F2BD80AB223CD2A7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -120,68 +93,52 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EC04653B424E1D8C0CFC7BE0D382902C;
+			remoteGlobalIDString = 47BB2A442E86AB201979D84E2E7228AF;
 			remoteInfo = HanTalkHotUpdate;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0021F429174EA50A4F2ADCAF36EEB504 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
 		040C09B94F19533FBD391278CB20185D /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		05BFBAF94DDF04E8BDBF6323835FB9BC /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
-		05D4B9A336683C724DF7D608C8F2738B /* HanTalkHotUpdate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HanTalkHotUpdate-dummy.m"; sourceTree = "<group>"; };
-		08F42DF76DC28110A83649C86971CCBD /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = HanTalkHotUpdate/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		0929494D86649284B6A56EAB3F91B303 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
 		09BDA8426E671B3F1385057205E67201 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
 		0A32BFAF9CC6751164BA81D435F5B03F /* Pods-HanTalkHotUpdate_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HanTalkHotUpdate_Example-umbrella.h"; sourceTree = "<group>"; };
 		0AF376080E12057AC937F6E1F0D7CB5D /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
-		0BCEFD1083FA72F5E123E07D565CA970 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		0BE0FD228EC209C1AF714D865ED018E3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		0CD45A537D3C853D29FF82C1A11FD291 /* Pods-HanTalkHotUpdate_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HanTalkHotUpdate_Example.modulemap"; sourceTree = "<group>"; };
-		0DCAAFCF9D54C55F5CAC637C2AA39122 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		0D66143D2F6CB0621559ADF5E0B0D795 /* UpdateManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UpdateManager.m; path = HanTalkHotUpdate/Classes/UpdateManager.m; sourceTree = "<group>"; };
 		0EF0F7569C1C4BFC3EF2C9DA3D50CC0B /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
 		1174ABA877619CC640989D6AC9A07DF1 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
 		14D08F7F28CEDCEF2AFC8BBDB71F26FB /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
 		17FCADC02A41266A8F7ECA471386ABB3 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
-		1933EA3574E97B223B43E8B3E7BB223F /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
 		197B10D38F864086229B3C2C50E03390 /* HanTalkHotUpdate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HanTalkHotUpdate.framework; path = HanTalkHotUpdate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AB3C1AE13FE37CFF6F471AF2B1E701D /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
 		1C304AFB196CB1F939C733CAB82EE5C3 /* Pods-HanTalkHotUpdate_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HanTalkHotUpdate_Example-dummy.m"; sourceTree = "<group>"; };
-		23CF4A146440C69C82DC54E1D6C95F5B /* TestViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TestViewController.m; path = HanTalkHotUpdate/Classes/TestViewController.m; sourceTree = "<group>"; };
 		2658E99DDD8EA7B96318F002C7B157B0 /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
-		26C478FC0A20CAD49CB9886A2B644F28 /* HanTalkHotUpdate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HanTalkHotUpdate-prefix.pch"; sourceTree = "<group>"; };
 		2A23D5B238032195CA6F925D556B9F96 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		2A821F310F9CBCED06C1D6DEC3103B24 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		2D5CE48EA278E0FBB7678833CD616A38 /* Pods-HanTalkHotUpdate_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HanTalkHotUpdate_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2D8402FA7AC4126A09D97FB4ADABABC8 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		306711168A8AF95DBD70ABF1C10CC638 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31D787ECE5B8AD11502E78872FA613F5 /* Pods-HanTalkHotUpdate_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HanTalkHotUpdate_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		31ED284709D993E4EB8F8945CE1B26D7 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
-		321E905D68D3A893ADED5371E975D02E /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
 		353BE42A5F94DADECC35B1DBDA6A1231 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
 		37571CE6D9A598EC8A406B971F7E8496 /* Pods-HanTalkHotUpdate_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HanTalkHotUpdate_Tests-umbrella.h"; sourceTree = "<group>"; };
-		3C3F3D6D27DF6F34778198ED1FD58DE6 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		38FEB0BB22A798AC4093C153F7631576 /* HanTalkHotUpdate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HanTalkHotUpdate.modulemap; sourceTree = "<group>"; };
 		3D8C0827EE8E44B8D6ED8FA2F01E3296 /* Pods-HanTalkHotUpdate_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HanTalkHotUpdate_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		443C446A800F6280C03E64AF14170EC0 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
-		507EE71DE4153F70CCF434B307350197 /* HanTalkHotUpdate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HanTalkHotUpdate.xcconfig; sourceTree = "<group>"; };
-		5107B9B6CE83E636B71E3CDA2AE3E563 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		4576E984C50C6C58CDAD1ADE70FDB00A /* HanTalkHotUpdate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HanTalkHotUpdate-umbrella.h"; sourceTree = "<group>"; };
+		49A8E4812F0AC4E548F68B9C03FEE62A /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = HanTalkHotUpdate/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		51B67224F1915F767525791B6EDD10FA /* HanTalkHotUpdate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HanTalkHotUpdate.xcconfig; sourceTree = "<group>"; };
 		549227B366C55E250893C8E2EB35657E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		559947ACFC2291BE83F8DEC005B7101D /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
 		5BFAF759AB5CDDB9C7A8E1CAB998D40D /* Pods-HanTalkHotUpdate_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HanTalkHotUpdate_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5D1C251DFB2D3B0E60259BE56A85C5BA /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
 		6361979267EDE0860632095FC6EA4D87 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
-		66B9F0417BB2ACA2F22BFEFB4D798542 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
 		6A17DC418445499296B6A00A3CF94D5C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6A85CFF7340F6F217610D5011268BE29 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		71E954235DC94E34182898B3407F726B /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		7246235E51EAFF1369D0326795FC6246 /* UpdateManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UpdateManager.h; path = HanTalkHotUpdate/Classes/UpdateManager.h; sourceTree = "<group>"; };
 		72C208217BB6EAB64559C0AC437E799C /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
-		7374CB51F88A9B491B8B985E3D722517 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		75364EBDDAA9D30BD74B2DE562BCD1F2 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
 		765890767AA4C1684A39CAE6D166BE7D /* Pods-HanTalkHotUpdate_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HanTalkHotUpdate_Example.release.xcconfig"; sourceTree = "<group>"; };
-		789723E2251183402C5399F67E6C6185 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
 		7AD7A9F5902061F94EEC77455DF6D75F /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
-		7B943D0C95FC8B04938646639CCFD295 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		821721E64E131591EF741FF1CDF2E866 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		848A2A959DD4716F0D567339263D120F /* UpdateManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UpdateManager.h; path = HanTalkHotUpdate/Classes/UpdateManager.h; sourceTree = "<group>"; };
-		861E5A9F91EB9AEDA75E5F1603AE8546 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		880194B8F64D0EEA4EF4D17F41867147 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		8B111A72E572F236A399CC7F2E7D3E85 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
 		8B855A1A4BC593C342680B0674B9FFAB /* Pods-HanTalkHotUpdate_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HanTalkHotUpdate_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -191,21 +148,19 @@
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		940F9DBBD5FB7E51683C5858A06D1B91 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		94AB4DE1180A50909D140A1BCEB60BE4 /* Pods-HanTalkHotUpdate_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HanTalkHotUpdate_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9659FD22FAD9EBC5FED490586629C518 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		9A5B4118811EB69F607BAC4CC5716FAA /* HanTalkHotUpdate.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = HanTalkHotUpdate.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D82029FB8774862A89BC6CD31A855F2 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
 		9ED7C89A918EC874A6C63CA7945D00DF /* Pods-HanTalkHotUpdate_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HanTalkHotUpdate_Example-resources.sh"; sourceTree = "<group>"; };
 		9FB33A30129B406EB1BD224B6B630B80 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		A98BE70664E223A28C1D3495EC3215CA /* Pods-HanTalkHotUpdate_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HanTalkHotUpdate_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AB81F5B5A19D6F63D51E00BB9E746058 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
 		ACFA5C092B8DD591CA30AA394993ABEE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B4C03C587888638D204431585A11C152 /* HanTalkHotUpdate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HanTalkHotUpdate-umbrella.h"; sourceTree = "<group>"; };
+		B2613EF90CFB08C039F98BBB963462DB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		B7A39126969A1FBAEF5C77690E4D82AF /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		BB00ADDE9C30E36EB99FA89E831E4590 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
 		BE62D258251F0E3CC57836C93584D335 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
 		BF1D89BEED3766388A77B2FCB9912393 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
-		BFB7E765340B8A9CEE305A07E2722760 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		C5E2B9D58F1E53644F231B97A1582F64 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
-		C7AB6E9E4E3CD74A94656080BCEFC21E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C3C9542D773671D3DD03620C2D2DEDD5 /* HanTalkHotUpdate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HanTalkHotUpdate-prefix.pch"; sourceTree = "<group>"; };
 		C7FBC6D15054A1E33690B1FD471C1D92 /* Pods-HanTalkHotUpdate_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HanTalkHotUpdate_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C90CE9B626C1720C9ADB8FF999E47D68 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
 		C981116C7B3C73AA73246E5DDFC7D154 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AFNetworking.modulemap; sourceTree = "<group>"; };
@@ -214,27 +169,18 @@
 		CF583C8B9D819B2DDADBD3E2E7016A51 /* Pods-HanTalkHotUpdate_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HanTalkHotUpdate_Tests-dummy.m"; sourceTree = "<group>"; };
 		CFB2918FE96D6AE88B6CA1AB13D6E730 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
 		D2F00E33B5224A2ABFD1744688638A40 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
-		D5DB48199A83A8A6EFD633CBCED7596C /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
 		D5E9CBCE5E4D8713E454C38B818B6765 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
 		D8EF64704F3BAD010CE7B70854F3EDFE /* Pods_HanTalkHotUpdate_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HanTalkHotUpdate_Tests.framework; path = "Pods-HanTalkHotUpdate_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D98E9F94674B951D5AD580B6FF25D78C /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		DD016C302A14009E84FCF4F22FE80833 /* HanTalkHotUpdate.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = HanTalkHotUpdate.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DD44D325F4E2EC592DE9B08C607E9B0A /* Pods_HanTalkHotUpdate_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HanTalkHotUpdate_Example.framework; path = "Pods-HanTalkHotUpdate_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEFADBFEEBD5F6BFEA5483C615F65EB5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		E1C8AE42D5A69E862E48EC78FF350078 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
-		E463D2AD486B5B2100DA04F357825892 /* UpdateManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UpdateManager.m; path = HanTalkHotUpdate/Classes/UpdateManager.m; sourceTree = "<group>"; };
-		E5A0AD75803374F2928A5990F8B9FFA0 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		E459A074626BD769DC142F1FB7A8F8EF /* HanTalkHotUpdate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HanTalkHotUpdate-dummy.m"; sourceTree = "<group>"; };
 		E5CE85E1EB18AE94164507FF5D433CE6 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
 		E79F20FA67EF326AC8DE380E6118EBF4 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
-		EA1DEE789A260EC86C9D368D32923242 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
 		EB64F9B6AF57A3682290C9D854B1A1E1 /* Pods-HanTalkHotUpdate_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HanTalkHotUpdate_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		ECA73B9459E1BC9033D3EC02F98C5397 /* Pods-HanTalkHotUpdate_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HanTalkHotUpdate_Tests.modulemap"; sourceTree = "<group>"; };
 		F01A2FF3063C4AE9B825FFA43C8E20B8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		F059F94B54F737A25A7ECD2A1072A3E1 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
 		F1423F692F2541CFE55253BC467F0025 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
-		F51E646305B6BC861AB10F74D0B8A3E0 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		F6C90B8C59D573AD08FC82FEC702055F /* TestViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestViewController.h; path = HanTalkHotUpdate/Classes/TestViewController.h; sourceTree = "<group>"; };
-		F93E7D1131A9D7A60E7715B8EECA03E6 /* HanTalkHotUpdate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HanTalkHotUpdate.modulemap; sourceTree = "<group>"; };
 		FAF9AB0D2DE5398A86009837A2760BAD /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
 		FB319C7A6C98205050D9B16602E2BF3C /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -245,19 +191,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				491D5B62F1B91673F49A9D806DC6289F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1B766654ADFD69DE09385D8D5F0C6873 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A7F19CBFD8ABB33FDC81E0A9FA6FB399 /* AFNetworking.framework in Frameworks */,
-				A2F307DBCBCD2F43756CF196AB04700D /* Foundation.framework in Frameworks */,
-				D3D0E6A1DB22D531B82F560B049C2C47 /* MobileCoreServices.framework in Frameworks */,
-				F1709B48475F5D595E6FC6F035121AFC /* Security.framework in Frameworks */,
-				79910780F5FB0C5A41A6F5F6A0AB2782 /* SystemConfiguration.framework in Frameworks */,
-				4A1A74BD723EBF76F0778BC8014AB2EB /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +211,19 @@
 				A707F33AF9BDB27BD95432DFB1E2E97A /* MobileCoreServices.framework in Frameworks */,
 				76BA5CCA7F0BD9E4B4B9C2C466C7DC58 /* Security.framework in Frameworks */,
 				6885F9A30752A1960ADEC6689064524A /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F71FDDD59BAA103B8170B86DF394BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98BFC4C6210666D8B1FBF81F8AC08EDE /* AFNetworking.framework in Frameworks */,
+				0F2BDC9072FDB39DEE6ED1A77AFAF244 /* Foundation.framework in Frameworks */,
+				40168C84C77B01D2D5ECA864A42B62E1 /* MobileCoreServices.framework in Frameworks */,
+				3970FF419B2EC15DEB6B83E5D8797270 /* Security.framework in Frameworks */,
+				519F0D1C80217E88E7B5A5E3A0AA9600 /* SystemConfiguration.framework in Frameworks */,
+				D998D21079C195C118C56F9F55ECE402 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,18 +266,12 @@
 			name = Reachability;
 			sourceTree = "<group>";
 		};
-		22F920D04E1634BA7F67068F6A2B1AC7 /* Support Files */ = {
+		24DB9DA13096480F5A805523F289CA8A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F93E7D1131A9D7A60E7715B8EECA03E6 /* HanTalkHotUpdate.modulemap */,
-				507EE71DE4153F70CCF434B307350197 /* HanTalkHotUpdate.xcconfig */,
-				05D4B9A336683C724DF7D608C8F2738B /* HanTalkHotUpdate-dummy.m */,
-				26C478FC0A20CAD49CB9886A2B644F28 /* HanTalkHotUpdate-prefix.pch */,
-				B4C03C587888638D204431585A11C152 /* HanTalkHotUpdate-umbrella.h */,
-				821721E64E131591EF741FF1CDF2E866 /* Info.plist */,
+				6C2B905FC804D6952A0E15DE1B91F472 /* HanTalkHotUpdate */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HanTalkHotUpdate";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		297CA8023A4FD0BD9EE1CA68BE9526F7 /* Support Files */ = {
@@ -348,45 +288,25 @@
 			path = "../Target Support Files/AFNetworking";
 			sourceTree = "<group>";
 		};
-		58EE498C0542FA186F389BEBCD3E016F /* Masonry */ = {
-			isa = PBXGroup;
-			children = (
-				0BCEFD1083FA72F5E123E07D565CA970 /* MASCompositeConstraint.h */,
-				789723E2251183402C5399F67E6C6185 /* MASCompositeConstraint.m */,
-				66B9F0417BB2ACA2F22BFEFB4D798542 /* MASConstraint.h */,
-				EA1DEE789A260EC86C9D368D32923242 /* MASConstraint.m */,
-				71E954235DC94E34182898B3407F726B /* MASConstraint+Private.h */,
-				3C3F3D6D27DF6F34778198ED1FD58DE6 /* MASConstraintMaker.h */,
-				0DCAAFCF9D54C55F5CAC637C2AA39122 /* MASConstraintMaker.m */,
-				0021F429174EA50A4F2ADCAF36EEB504 /* MASLayoutConstraint.h */,
-				1933EA3574E97B223B43E8B3E7BB223F /* MASLayoutConstraint.m */,
-				9659FD22FAD9EBC5FED490586629C518 /* Masonry.h */,
-				D5DB48199A83A8A6EFD633CBCED7596C /* MASUtilities.h */,
-				2D8402FA7AC4126A09D97FB4ADABABC8 /* MASViewAttribute.h */,
-				5107B9B6CE83E636B71E3CDA2AE3E563 /* MASViewAttribute.m */,
-				E5A0AD75803374F2928A5990F8B9FFA0 /* MASViewConstraint.h */,
-				75364EBDDAA9D30BD74B2DE562BCD1F2 /* MASViewConstraint.m */,
-				7374CB51F88A9B491B8B985E3D722517 /* NSArray+MASAdditions.h */,
-				D98E9F94674B951D5AD580B6FF25D78C /* NSArray+MASAdditions.m */,
-				6A85CFF7340F6F217610D5011268BE29 /* NSArray+MASShorthandAdditions.h */,
-				321E905D68D3A893ADED5371E975D02E /* NSLayoutConstraint+MASDebugAdditions.h */,
-				F51E646305B6BC861AB10F74D0B8A3E0 /* NSLayoutConstraint+MASDebugAdditions.m */,
-				F059F94B54F737A25A7ECD2A1072A3E1 /* View+MASAdditions.h */,
-				C5E2B9D58F1E53644F231B97A1582F64 /* View+MASAdditions.m */,
-				861E5A9F91EB9AEDA75E5F1603AE8546 /* View+MASShorthandAdditions.h */,
-				31ED284709D993E4EB8F8945CE1B26D7 /* ViewController+MASAdditions.h */,
-				7B943D0C95FC8B04938646639CCFD295 /* ViewController+MASAdditions.m */,
-			);
-			name = Masonry;
-			path = HanTalkHotUpdate/Classes/Masonry;
-			sourceTree = "<group>";
-		};
 		641BDD347DE7B8BB81D6CA5727C6EC5A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				F0BFE09BCA49DD2E63F4E0637DD7991D /* AFNetworking */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		6C2B905FC804D6952A0E15DE1B91F472 /* HanTalkHotUpdate */ = {
+			isa = PBXGroup;
+			children = (
+				49A8E4812F0AC4E548F68B9C03FEE62A /* ReplaceMe.m */,
+				7246235E51EAFF1369D0326795FC6246 /* UpdateManager.h */,
+				0D66143D2F6CB0621559ADF5E0B0D795 /* UpdateManager.m */,
+				A3096FB7C65B2BA31F903500D6A0CD15 /* Pod */,
+				ADE04A4119D9437A97DF129F5113BBAF /* Support Files */,
+			);
+			name = HanTalkHotUpdate;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		7C69B41C050784F9441DCA5B40434372 /* Targets Support Files */ = {
@@ -402,7 +322,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				A7142F3F8039C16E25E1A0848602D71E /* Development Pods */,
+				24DB9DA13096480F5A805523F289CA8A /* Development Pods */,
 				AD37EE3CE22F2D6A660B5BD65007E786 /* Frameworks */,
 				641BDD347DE7B8BB81D6CA5727C6EC5A /* Pods */,
 				C24753CB7EE96B5586991C64456A4B44 /* Products */,
@@ -434,12 +354,14 @@
 			name = Serialization;
 			sourceTree = "<group>";
 		};
-		A7142F3F8039C16E25E1A0848602D71E /* Development Pods */ = {
+		A3096FB7C65B2BA31F903500D6A0CD15 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				C00BAE35D4FA09BE088622C61856D1DD /* HanTalkHotUpdate */,
+				9A5B4118811EB69F607BAC4CC5716FAA /* HanTalkHotUpdate.podspec */,
+				B2613EF90CFB08C039F98BBB963462DB /* LICENSE */,
+				0BE0FD228EC209C1AF714D865ED018E3 /* README.md */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		AD37EE3CE22F2D6A660B5BD65007E786 /* Frameworks */ = {
@@ -449,6 +371,20 @@
 				849CD4D179F0D969429C50175815DF1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADE04A4119D9437A97DF129F5113BBAF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				38FEB0BB22A798AC4093C153F7631576 /* HanTalkHotUpdate.modulemap */,
+				51B67224F1915F767525791B6EDD10FA /* HanTalkHotUpdate.xcconfig */,
+				E459A074626BD769DC142F1FB7A8F8EF /* HanTalkHotUpdate-dummy.m */,
+				C3C9542D773671D3DD03620C2D2DEDD5 /* HanTalkHotUpdate-prefix.pch */,
+				4576E984C50C6C58CDAD1ADE70FDB00A /* HanTalkHotUpdate-umbrella.h */,
+				306711168A8AF95DBD70ABF1C10CC638 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HanTalkHotUpdate";
 			sourceTree = "<group>";
 		};
 		BAA7C8FD05AEAB93C732F63AC9D55B84 /* NSURLSession */ = {
@@ -461,22 +397,6 @@
 				72C208217BB6EAB64559C0AC437E799C /* AFURLSessionManager.m */,
 			);
 			name = NSURLSession;
-			sourceTree = "<group>";
-		};
-		C00BAE35D4FA09BE088622C61856D1DD /* HanTalkHotUpdate */ = {
-			isa = PBXGroup;
-			children = (
-				08F42DF76DC28110A83649C86971CCBD /* ReplaceMe.m */,
-				F6C90B8C59D573AD08FC82FEC702055F /* TestViewController.h */,
-				23CF4A146440C69C82DC54E1D6C95F5B /* TestViewController.m */,
-				848A2A959DD4716F0D567339263D120F /* UpdateManager.h */,
-				E463D2AD486B5B2100DA04F357825892 /* UpdateManager.m */,
-				58EE498C0542FA186F389BEBCD3E016F /* Masonry */,
-				DD3BB29CFE70CFC77474D205974E68BB /* Pod */,
-				22F920D04E1634BA7F67068F6A2B1AC7 /* Support Files */,
-			);
-			name = HanTalkHotUpdate;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		C24753CB7EE96B5586991C64456A4B44 /* Products */ = {
@@ -506,16 +426,6 @@
 			);
 			name = "Pods-HanTalkHotUpdate_Tests";
 			path = "Target Support Files/Pods-HanTalkHotUpdate_Tests";
-			sourceTree = "<group>";
-		};
-		DD3BB29CFE70CFC77474D205974E68BB /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				DD016C302A14009E84FCF4F22FE80833 /* HanTalkHotUpdate.podspec */,
-				BFB7E765340B8A9CEE305A07E2722760 /* LICENSE */,
-				C7AB6E9E4E3CD74A94656080BCEFC21E /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		ECD6EE8E7592AEB5524DA372BD924C80 /* Pods-HanTalkHotUpdate_Example */ = {
@@ -563,6 +473,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		7F75A461915935A2213E39C9A40DDD33 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF557E74A66C40C874DBBD9F87683EEE /* HanTalkHotUpdate-umbrella.h in Headers */,
+				F453A46FA3B69047E7EA7402B7C039EC /* UpdateManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9C00E64B961A4F9F21DA952DE2A8DDAE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -606,34 +525,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FA114D6A715A4CF697A2AD5DD2EAB14E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2FC5FB3ED2AA45F4C3C2AAEDAF878221 /* HanTalkHotUpdate-umbrella.h in Headers */,
-				524EC5DC2365B1D406202187ABFD35EC /* MASCompositeConstraint.h in Headers */,
-				88EE4E7326961E113AD78FE236EF17F2 /* MASConstraint+Private.h in Headers */,
-				C3B90113C52502A1221FB8C0FACEAFDC /* MASConstraint.h in Headers */,
-				7263C26F9B8133E8762C024D09ED652D /* MASConstraintMaker.h in Headers */,
-				208D17D7B21A3BCB77EF6916C5A34E58 /* MASLayoutConstraint.h in Headers */,
-				85CBDEB3EEA93E8ACC2E99701B922768 /* Masonry.h in Headers */,
-				30CC4867C44E2C73ECBD3143C9B7A3E3 /* MASUtilities.h in Headers */,
-				629AF94434FB4B51CD97E13752E0EFCC /* MASViewAttribute.h in Headers */,
-				CCA23525E0196798F93EAFF2CC6558FA /* MASViewConstraint.h in Headers */,
-				FA5732405531D353E8F8DE5CD4FD52D0 /* NSArray+MASAdditions.h in Headers */,
-				C92A0D27F27AEB2292DD9CF2EF525511 /* NSArray+MASShorthandAdditions.h in Headers */,
-				B7F09130537921717A885689710318E3 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
-				CA31F8DDCF56CE63F8767B3305A08535 /* TestViewController.h in Headers */,
-				DCA738F9D25B4D8C26306564A35E4826 /* UpdateManager.h in Headers */,
-				503B7E5C2DEEE1BA0C96C3D6EEADEACB /* View+MASAdditions.h in Headers */,
-				1D6E3B1CC0F8825C244CD699E4A96D76 /* View+MASShorthandAdditions.h in Headers */,
-				0792566A4580019586DCB533AD0888E0 /* ViewController+MASAdditions.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		47BB2A442E86AB201979D84E2E7228AF /* HanTalkHotUpdate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A937BCAA552EB2A77B0FEF628996A51 /* Build configuration list for PBXNativeTarget "HanTalkHotUpdate" */;
+			buildPhases = (
+				7F75A461915935A2213E39C9A40DDD33 /* Headers */,
+				162CB33B227FB098321342438BD0D883 /* Sources */,
+				62F71FDDD59BAA103B8170B86DF394BC /* Frameworks */,
+				6E0F4615F0F630F00CB3CB889D419028 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				312DEA38A2AFB5B549454232C385D8CE /* PBXTargetDependency */,
+			);
+			name = HanTalkHotUpdate;
+			productName = HanTalkHotUpdate;
+			productReference = 197B10D38F864086229B3C2C50E03390 /* HanTalkHotUpdate.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		931CBC59728B36F643B41934FE55E1C7 /* Pods-HanTalkHotUpdate_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B18AC334F3AA4871F15F8D62A92936FF /* Build configuration list for PBXNativeTarget "Pods-HanTalkHotUpdate_Tests" */;
@@ -691,25 +604,6 @@
 			productReference = FB319C7A6C98205050D9B16602E2BF3C /* AFNetworking.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		EC04653B424E1D8C0CFC7BE0D382902C /* HanTalkHotUpdate */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6ABE142872C1FB47570AAAC2CA52C855 /* Build configuration list for PBXNativeTarget "HanTalkHotUpdate" */;
-			buildPhases = (
-				FA114D6A715A4CF697A2AD5DD2EAB14E /* Headers */,
-				E701A005C0C7E06C47ECB43766C7DF7B /* Sources */,
-				1B766654ADFD69DE09385D8D5F0C6873 /* Frameworks */,
-				695923977C88F48DC2698DB5117B6BEA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				429FC199C9DB82356F0233CDF8A215C7 /* PBXTargetDependency */,
-			);
-			name = HanTalkHotUpdate;
-			productName = HanTalkHotUpdate;
-			productReference = 197B10D38F864086229B3C2C50E03390 /* HanTalkHotUpdate.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -732,7 +626,7 @@
 			projectRoot = "";
 			targets = (
 				EAE60BD2ADA8DCB217E116ADB628185C /* AFNetworking */,
-				EC04653B424E1D8C0CFC7BE0D382902C /* HanTalkHotUpdate */,
+				47BB2A442E86AB201979D84E2E7228AF /* HanTalkHotUpdate */,
 				BF183D826CC60A1FA1B88220E5F819E2 /* Pods-HanTalkHotUpdate_Example */,
 				931CBC59728B36F643B41934FE55E1C7 /* Pods-HanTalkHotUpdate_Tests */,
 			);
@@ -747,7 +641,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		695923977C88F48DC2698DB5117B6BEA /* Resources */ = {
+		6E0F4615F0F630F00CB3CB889D419028 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -802,32 +696,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		162CB33B227FB098321342438BD0D883 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E490BB110A79835863C8BE6C69F64C40 /* HanTalkHotUpdate-dummy.m in Sources */,
+				872C48A782BE42E1C266EB754F9E5A6A /* ReplaceMe.m in Sources */,
+				11C973084FC002D8A707C54792E34CC0 /* UpdateManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6AC17BDFEF2365F80AF9327D4EA4082F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6CC995DE37437CA7EBE585D903B6E287 /* Pods-HanTalkHotUpdate_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E701A005C0C7E06C47ECB43766C7DF7B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EC7288EC96D5D554B6C2909A0A46BF71 /* HanTalkHotUpdate-dummy.m in Sources */,
-				3004BBC7B78F859B0DA6A859D54A3CD9 /* MASCompositeConstraint.m in Sources */,
-				3C48E390A187659A3A1BADC85D6C9B41 /* MASConstraint.m in Sources */,
-				9CF1453B8A5930F77B5FEF3230A50846 /* MASConstraintMaker.m in Sources */,
-				74A0E356623165E5838672EFA1F06B0D /* MASLayoutConstraint.m in Sources */,
-				F44519077C753D95802163A139AC78C4 /* MASViewAttribute.m in Sources */,
-				3FF7F0A578B549BBB108066CCEB19626 /* MASViewConstraint.m in Sources */,
-				26C25A95B0B961F1738B60B8ED411825 /* NSArray+MASAdditions.m in Sources */,
-				8AF33C132EABA33F5C719B1832ECDED6 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				1CBE46A9A66F15CD583FCA3F468787F4 /* ReplaceMe.m in Sources */,
-				C9E424257FD81AD3E82A86169C20E1DF /* TestViewController.m in Sources */,
-				79ED3689635FF1B5F0028EB7F9A6CF3A /* UpdateManager.m in Sources */,
-				9E885B306CAAE012A82533EB3A2593B7 /* View+MASAdditions.m in Sources */,
-				375DC8EA884307B5D825AE57C137614A /* ViewController+MASAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -840,16 +723,16 @@
 			target = EAE60BD2ADA8DCB217E116ADB628185C /* AFNetworking */;
 			targetProxy = 4C6A24D248A7E5805F6C329A2B4DC748 /* PBXContainerItemProxy */;
 		};
-		429FC199C9DB82356F0233CDF8A215C7 /* PBXTargetDependency */ = {
+		312DEA38A2AFB5B549454232C385D8CE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AFNetworking;
 			target = EAE60BD2ADA8DCB217E116ADB628185C /* AFNetworking */;
-			targetProxy = 81DF98535881ECA324E061D3DB60617C /* PBXContainerItemProxy */;
+			targetProxy = C74AE7EA63CB68A9F2BD80AB223CD2A7 /* PBXContainerItemProxy */;
 		};
 		49AD6BD27790D536442AC5CA3C86C313 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HanTalkHotUpdate;
-			target = EC04653B424E1D8C0CFC7BE0D382902C /* HanTalkHotUpdate */;
+			target = 47BB2A442E86AB201979D84E2E7228AF /* HanTalkHotUpdate */;
 			targetProxy = D126D2E373540D49A13CD80C866A8446 /* PBXContainerItemProxy */;
 		};
 		A0C69E1D431119A3C0067DDF907AC711 /* PBXTargetDependency */ = {
@@ -861,36 +744,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		429CD00DBA2CC6C6B526C685BA05A784 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 507EE71DE4153F70CCF434B307350197 /* HanTalkHotUpdate.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HanTalkHotUpdate/HanTalkHotUpdate-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HanTalkHotUpdate/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HanTalkHotUpdate/HanTalkHotUpdate.modulemap";
-				PRODUCT_MODULE_NAME = HanTalkHotUpdate;
-				PRODUCT_NAME = HanTalkHotUpdate;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		550BF63FA5AF889D96531550DAB0DFBA /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 765890767AA4C1684A39CAE6D166BE7D /* Pods-HanTalkHotUpdate_Example.release.xcconfig */;
@@ -1082,6 +935,36 @@
 			};
 			name = Release;
 		};
+		9E73F3C16B2FDFD443641F09D98025BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51B67224F1915F767525791B6EDD10FA /* HanTalkHotUpdate.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HanTalkHotUpdate/HanTalkHotUpdate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HanTalkHotUpdate/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HanTalkHotUpdate/HanTalkHotUpdate.modulemap";
+				PRODUCT_MODULE_NAME = HanTalkHotUpdate;
+				PRODUCT_NAME = HanTalkHotUpdate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		9F05FB7480ECA0237560017761177F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 14D08F7F28CEDCEF2AFC8BBDB71F26FB /* AFNetworking.xcconfig */;
@@ -1176,6 +1059,37 @@
 			};
 			name = Debug;
 		};
+		CCB74D3D91A0C1093208C9C997168CFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51B67224F1915F767525791B6EDD10FA /* HanTalkHotUpdate.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HanTalkHotUpdate/HanTalkHotUpdate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HanTalkHotUpdate/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HanTalkHotUpdate/HanTalkHotUpdate.modulemap";
+				PRODUCT_MODULE_NAME = HanTalkHotUpdate;
+				PRODUCT_NAME = HanTalkHotUpdate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		E8FF4DACECB6E11CD76F6F24E5E5C77B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A98BE70664E223A28C1D3495EC3215CA /* Pods-HanTalkHotUpdate_Tests.debug.xcconfig */;
@@ -1209,37 +1123,6 @@
 			};
 			name = Debug;
 		};
-		F1541EEC9AFA86FAAB2A077CE2A53673 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 507EE71DE4153F70CCF434B307350197 /* HanTalkHotUpdate.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HanTalkHotUpdate/HanTalkHotUpdate-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HanTalkHotUpdate/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HanTalkHotUpdate/HanTalkHotUpdate.modulemap";
-				PRODUCT_MODULE_NAME = HanTalkHotUpdate;
-				PRODUCT_NAME = HanTalkHotUpdate;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1261,11 +1144,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6ABE142872C1FB47570AAAC2CA52C855 /* Build configuration list for PBXNativeTarget "HanTalkHotUpdate" */ = {
+		6A937BCAA552EB2A77B0FEF628996A51 /* Build configuration list for PBXNativeTarget "HanTalkHotUpdate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				429CD00DBA2CC6C6B526C685BA05A784 /* Debug */,
-				F1541EEC9AFA86FAAB2A077CE2A53673 /* Release */,
+				9E73F3C16B2FDFD443641F09D98025BE /* Debug */,
+				CCB74D3D91A0C1093208C9C997168CFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

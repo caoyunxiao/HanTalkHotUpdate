@@ -6,11 +6,19 @@
 //
 
 #import "UpdateManager.h"
-
+#import <AFNetworking/AFNetworking.h>
 
 @implementation UpdateManager
 
 
 
+- (void)getWithUrl:(NSString *)url {
+    AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc] init];
+    [manager GET:url parameters:nil progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+        NSLog(@"%@",responseObject);
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+        NSLog(@"%@",error);
+    }];
+}
 
 @end
